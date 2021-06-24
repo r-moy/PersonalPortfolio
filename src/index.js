@@ -3,10 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Welcome from './test';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    <div> 
+      <Welcome name = 'Ray'/>
+    </div>
+    
   </React.StrictMode>,
   document.getElementById('root')
 );
